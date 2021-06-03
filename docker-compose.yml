@@ -1,0 +1,9 @@
+version: "3.8"
+services: 
+  chatserver:
+    build: ./
+    ports:
+      - "41419:41419"
+
+
+    
